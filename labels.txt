@@ -1,0 +1,6 @@
+0 SEVENTEEN_attacca_album photocards  
+1 SEVENTEEN_heng garæ_album photocards  
+2 SEVENTEEN_caratland 2021_trading card
+3 SEVENTEEN_haru tour_trading card
+4 SEVENTEEN_incomplete_2021_trading card
+5 Others
