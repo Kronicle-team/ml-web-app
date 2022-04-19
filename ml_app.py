@@ -3,8 +3,6 @@ from tensorflow import keras
 from PIL import Image, ImageOps
 import numpy as np
 
-# config function
-st.set_page_config(page_title="Kronicle", page_icon='assets/logo.png', layout="wide")
 
 # add styling
 with open('style.css') as f:
@@ -52,7 +50,7 @@ def photocard_classification(img, file):
 
 
 def run_ml_app():
-    st.title("Photocard Classification - Kronicle")
+    st.title("SEVENTEEN Photocard Classification - Kronicle")
     st.header("SEVENTEEN")
     st.text("Upload a photocard to classify")
     # file upload and handling logic
