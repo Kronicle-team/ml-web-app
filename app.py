@@ -71,5 +71,12 @@ def main():
             st.write("Hello world 4")
 
 
+hide_streamlit_style = """
+            <style>
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide streamlit style
+
 if __name__ == '__main__':
     main()
