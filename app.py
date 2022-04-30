@@ -61,6 +61,7 @@ def main():
         if option_1:
             st.write("Hello world 1")
 
+
         if option_2:
             st.write("Hello world 2")
 
@@ -76,7 +77,7 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide streamlit style
+# st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide streamlit style
 
 if __name__ == '__main__':
     main()
