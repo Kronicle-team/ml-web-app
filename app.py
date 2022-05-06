@@ -1,7 +1,4 @@
 import streamlit as st
-import streamlit.components.v1 as stc
-from ml_app import run_ml_app
-from eda_app import run_eda_app
 
 # config function
 st.set_page_config(
@@ -16,11 +13,18 @@ st.set_page_config(
     }
 )
 
+import streamlit.components.v1 as stc
+from ml_app import run_ml_app
+from eda_app import run_edit_app
+
+# add styling
+with open('style.css') as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 html_temp = """
-		<div style="background-color:#FEDBCD;padding:10px;border-radius:10px">
-		<h1 style="color:black;text-align:center;">Kronicle - K-pop Idols and Photocards Classification</h1>
-		<h4 style="color:black;text-align:center;">Deep Learning Web App</h4>
+		<div style="background-color:#435892;padding:10px;border-radius:10px">
+		<h1 style="color:#ffffff;subheader-align:center;subheader-shadow: 4px 4px 4px #FFA092">Kronicle - K-pop Idols and Photocards Classification</h1>
+		<h4 style="color:#ffffff;subheader-align:center;">Deep Learning Web App</h4>
 		</div>
 		"""
 
@@ -28,10 +32,10 @@ html_temp = """
 def main():
     stc.html(html_temp)
 
-    menu = ["Home", "EDA", "ML", "About"]
+    menu = ["HOME", "EDIT", "CLASSIFY CATEGORY", "ABOUT"]
     choice = st.sidebar.selectbox("Menu", menu)
 
-    if choice == "Home":
+    if choice == "HOME":
         st.write("""
 			### Data Exploration: Analyze K-pop Idols and their Photocards
 			The scanning app that uses the CNN model to categorize, verify, and authenticate the photocard.
@@ -39,37 +43,61 @@ def main():
 				- https://github.com/Kronicle-team/Kpop-Idol-Photocard-Classification
 			#### App Content
 				- EDA Section: Exploratory Data Analysis of Data
-				- ML Section: ML Predictor App
+				- Machine Learning Section: MACHINE LEARNING Predictor App
 				""")
 
-    elif choice == "EDA":
-        run_eda_app()
-    elif choice == "ML":
+    elif choice == "EDIT":
+        run_edit_app()
+    elif choice == "CLASSIFY CATEGORY":
         run_ml_app()
     else:
         st.subheader("About Kronicle")
-        st.text("Group 5 Project - COSC2634 ")
-        st.text("Building IT Systems")
-        st.text("May, 2022")
-        modal = st.expander("Advanced options")
+        st.subheader("Group 5 Project - COSC2634 ")
+        st.subheader("Building IT Systems")
+        st.subheader("May, 2022\n")
 
-        option_1 = modal.checkbox("Option 1")
-        option_2 = modal.checkbox("Option 2")
-        option_3 = modal.checkbox("Option 3")
-        option_4 = modal.checkbox("Option 4")
+        st.subheader("The authors of the whole project")
+        modal = st.expander("THE TEAM")
+        option_1 = modal.checkbox("Tran Ngoc Anh Thu")
+        option_2 = modal.checkbox("Doan Yen Nhi")
+        option_3 = modal.checkbox("Nguyen Hoang Linh")
+        option_4 = modal.checkbox("Du Duc Manh")
+        option_5 = modal.checkbox("Hua Minh Thu")
 
         if option_1:
-            st.write("Hello world 1")
-
+            st.image(
+                "https://i.ibb.co/zZKb9g9/Thu.jpg",
+                width=300,  # Manually Adjust the width of the image as per requirement
+            )
+            st.subheader("Machine Learning Engineer, Full Stack Developer, and UI/UX Designer")
 
         if option_2:
-            st.write("Hello world 2")
+            st.image(
+                "https://i.ibb.co/r5yL27k/Nhi.jpg",
+                width=300,  # Manually Adjust the width of the image as per requirement
+            )
+            st.subheader("Scrum Master, GitHub Admin, and Full Stack Developer")
 
         if option_3:
-            st.write("Hello world 3")
+            st.image(
+                "https://i.ibb.co/qCmg569/Linh.jpg",
+                width=300,  # Manually Adjust the width of the image as per requirement
+            )
+            st.subheader("GitHub Admin and Full Stack Developer")
 
         if option_4:
-            st.write("Hello world 4")
+            st.image(
+                "https://i.ibb.co/LhzjHQC/manh.jpg",
+                width=300,  # Manually Adjust the width of the image as per requirement
+            )
+            st.subheader("GitHub Admin and Full Stack Developer")
+
+        if option_5:
+            st.image(
+                "https://i.ibb.co/sw1FF9V/Thu-Hua.jpg",
+                width=300,  # Manually Adjust the width of the image as per requirement
+            )
+            st.subheader("UI/UX Designer, Full Stack Developer, and Meeting Minutes Taker", font="monospace")
 
 
 hide_streamlit_style = """
@@ -77,7 +105,7 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
-# st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide streamlit style
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)  # hide streamlit style
 
 if __name__ == '__main__':
     main()

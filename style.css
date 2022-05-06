@@ -1,0 +1,8 @@
+.stApp.streamlit-wide {
+    background-image: linear-gradient(rgba(243, 226, 199, 0.8), rgba(243, 226, 199, 0.8)), url("https://i.ibb.co/CQz6mhv/svt-banner.jpg");
+    background-size: cover;
+}
+
+.stApp.streamlit-wide .stApp-write {
+    background-color: #ffffff;
+}
