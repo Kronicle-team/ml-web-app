@@ -1,6 +1,6 @@
 # demo-web-app
 
-`
+```
 demo-web-app
 │
 ├── .streamlit
@@ -18,4 +18,4 @@ demo-web-app
 │   └── olympiad-problems.csv
 │
 └── requirements.txt
- `
+ ```
