@@ -85,7 +85,7 @@ def run_edit_app():
         our_image = Image.open(image_file)
         st.text("Original Image")
         # st.write(type(our_image))
-        st.image(our_image)
+        st.image(our_image, width=400, caption='Uploaded a photocard.')
 
         enhance_type = st.sidebar.radio("Enhance Type",
                                         ["Original", "Gray-Scale", "Contrast", "Brightness", "Blurring"])
@@ -132,7 +132,6 @@ def run_edit_app():
         elif feature_choice == 'Smiles':
             result_img = detect_smiles(our_image)
             st.image(result_img)
-
 
         elif feature_choice == 'Eyes':
             result_img = detect_eyes(our_image)

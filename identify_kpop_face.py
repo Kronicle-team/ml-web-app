@@ -50,7 +50,8 @@ def photocard_classification(img, file):
     return np.argmax(prediction)
 
 
-def run_ml_app():
+
+def identify_kpop_face_app():
     st.title("SEVENTEEN Photocard Classification - Kronicle")
     st.header("SEVENTEEN")
     st.text("Upload a Photocard to Classify")
@@ -62,17 +63,36 @@ def run_ml_app():
         st.image(image, width=400, caption='Uploaded a photocard.')
         st.write("")
         st.write("Classifying your Photocard .........hold tight")
-        label = photocard_classification(image, 'models/identify_category/keras_model.h5')
+        label = photocard_classification(image, 'models/identify_idol_faces/keras_model.h5')
         if label == 0:
-            st.write("This photocard looks like SEVENTEEN Attacca Album photocards.")
+            st.write("This looks like a Rose from Blackpink")
         elif label == 1:
-            st.write("This photocard looks like SEVENTEEN Heng Garæ Album photocards.")
+            st.write("This looks like Jennie from Blackpink")
         elif label == 2:
-            st.write("This photocard looks like SEVENTEEN Caratland trading cards.")
+            st.write("This looks like Lisa from Blackpink")
         elif label == 3:
-            st.write("This photocard looks like SEVENTEEN Haru Tour trading cards.")
+            st.write("This looks like Jisoo from Blackpink")
         elif label == 4:
-            st.write("This photocard looks like SEVENTEEN Incomplete 2021 trading cards.")
+            st.write("This looks like G-Dragon from Big Bang")
         elif label == 5:
-            st.write("Oops! This is not a SEVENTEEN trading cards.")
+            st.write("This looks like T.O.P from Big Bang")
+        elif label == 6:
+            st.write("This looks like Seungri from Big Bang")
+        elif label == 7:
+            st.write("This looks like Taeyang from Big Bang")
+        elif label == 8:
+            st.write("This looks like Daesung from Big Bang")
+        elif label == 9:
+            st.write("This looks like Seventeen from S.Coups")
+        elif label == 10:
+            st.write("This looks like Seventeen from Jeonghan")
+        elif label == 11:
+            st.write("This looks like Seventeen from Joshua")
+        elif label == 12:
+            st.write("This looks like Seventeen from Hoshi")
+        elif label == 13:
+            st.write("This looks like Seventeen from Wonwoo")
+        else:
+            st.write("This looks like a photocard from another group")
+        st.write("")
 

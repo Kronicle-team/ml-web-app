@@ -15,6 +15,7 @@ st.set_page_config(
 
 import streamlit.components.v1 as stc
 from ml_app import run_ml_app
+from identify_kpop_face import identify_kpop_face_app
 from eda_app import run_edit_app
 
 # add styling
@@ -32,7 +33,7 @@ html_temp = """
 def main():
     stc.html(html_temp)
 
-    menu = ["HOME", "EDIT", "CLASSIFY CATEGORY", "ABOUT"]
+    menu = ["HOME", "EDIT", "CLASSIFY CATEGORY", "IDENTIFY KPOP IDOL FACES", "ABOUT"]
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "HOME":
@@ -50,6 +51,8 @@ def main():
         run_edit_app()
     elif choice == "CLASSIFY CATEGORY":
         run_ml_app()
+    elif choice == "IDENTIFY KPOP IDOL FACES":
+        identify_kpop_face_app()
     else:
         st.subheader("About Kronicle")
         st.subheader("Group 5 Project - COSC2634 ")

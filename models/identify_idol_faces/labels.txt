@@ -1,0 +1,14 @@
+0 Rose_Blackpink
+1 Jennie_Blackpink
+2 Lisa_Blackpink
+3 Jisoo_Blackpink
+4 G-Dragon_Big_Bang
+5 T.O.P_Big_Bang
+6 Seungri_Big_Bang
+7 Taeyang_Big_Bang
+8 Daesung_Big_Bang
+9 Seventeen_S.Coups
+10 Seventeen_Jeonghan
+11 Seventeen_Joshua
+12 Seventeen_Hoshi
+13 Seventeen_Wonwoo
