@@ -6,7 +6,10 @@
   <strong>Tensorflow + OpenCV web application</strong>
 </p>
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#)
+<p align="center">
+  [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#)
+</p>
+
 
 ----------
 
