@@ -7,7 +7,9 @@
 </p>
 
 <p align="center">
-  ![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#)
+  <a href="#">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App" />
+  </a>
 </p>
 
 
