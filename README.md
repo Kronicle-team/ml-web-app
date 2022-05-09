@@ -26,7 +26,7 @@ The app contains a few key features:
 
 ----------------------------
 
-## 🎉Local Environment Setup
+## 🎉 Local Environment Setup
 
 ```bash
 pip install streamlit
@@ -36,7 +36,6 @@ pip install streamlit
 
  ```bash
 pip install -r requirements.txt
- conda install -c conda-forge scikit-surprise
  ```
 
  2. Clone the *forked* repo to your local machine.
