@@ -75,7 +75,7 @@ You should also be automatically directed to the base page of your web app. This
 ## Folder Structure & Architecture
 
 ```
-demo-web-app
+ml-web-app
 │
 ├── .streamlit
 │   └── config.toml
@@ -89,11 +89,10 @@ demo-web-app
 │   └── icon.png
 │
 ├── data
-│   └── olympiad-problems.csv
 │
 └── requirements.txt
 │
-└── requirements.txt
+└── test
     ├── test_app.py
  ```
 
