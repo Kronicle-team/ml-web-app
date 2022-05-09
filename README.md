@@ -11,7 +11,7 @@ pip install streamlit
  1. Ensure that you have the prerequisite Python libraries installed on your local machine:
 
  ```bash
- pip install -U streamlit numpy pandas scikit-learn
+pip install -r requirements.txt
  conda install -c conda-forge scikit-surprise
  ```
 
@@ -42,7 +42,7 @@ You should also be automatically directed to the base page of your web app. This
 ![Streamlit base page](#)
 
 
-# ml-web-app
+--------------------
 
 ```
 demo-web-app
