@@ -1,6 +1,30 @@
-# Welcome to Kronicle Deep Learning Web App
+<h1 align="center" style="color:#FD8477;font-size:70px;font-family:Georgia;text-align:center;">
+    Kronicle Deep Learning Web App on Streamlit
+</h1>
+
+<p align="center">
+  <strong>Tensorflow + OpenCV web application</strong>
+</p>
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](#)
 
+----------
+
+## Main Purpose 
+The web app support the listing function on the organization's [Official trading photocard website](#) by helping seller to classifying their products into appropriate category
+
+-------------
+
+## 📌Features
+The app contains a few key features:
+
++ Classifying most of SEVENTEEN photocards into provided categories
++ Identifying K-pop group members' faces from these groups: Blackpink, SEVENTEEN, Big Bang
++ Identify photocard's faces, smile, eyes
++ Adjust photocard colors grading
+
+
+----------------------------
 
 ## 🎉Local Environment Setup
 
@@ -43,6 +67,8 @@ You should also be automatically directed to the base page of your web app. This
 
 
 --------------------
+
+## Folder Structure & Architecture
 
 ```
 demo-web-app
