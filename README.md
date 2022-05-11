@@ -64,7 +64,7 @@ We used Python 3.8 or conda using Python 3.8, Pycharm as an IDE installed on our
 
 You should also be automatically directed to the base page of your web app. This should look something like:
 
-![Streamlit base page](https://i.ibb.co/2tPB2Z5/deep-learning-web-app.jpg)
+![Streamlit base page](https://i.ibb.co/hdqRwgG/CNN-web-app.jpg)
 
 
 --------------------
