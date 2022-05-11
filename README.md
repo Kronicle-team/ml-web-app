@@ -33,7 +33,7 @@ The app contains a few key features:
 
 #### 📱 Basic Screen shots
 
-|<a href="#"><img src="https://i.ibb.co/DQqyw58/classify-category.jpg" alt="classify category" width="500px"/></a>|<a href="#"><img src="https://i.ibb.co/k3r0G2X/identify-face.jpg" alt="identify faces" width="500px"/></a>|<a href="#"><img src="https://i.ibb.co/2YSGsbp/edit.jpg" alt="edit" width="500px"/></a>|
+|<a href="#"><img src="https://i.ibb.co/DQqyw58/classify-category.jpg" alt="classify category" width="700px"/></a>|<a href="#"><img src="https://i.ibb.co/k3r0G2X/identify-face.jpg" alt="identify faces" width="700px"/></a>|<a href="#"><img src="https://i.ibb.co/2YSGsbp/edit.jpg" alt="edit" width="700px"/></a>|
 |:--:|:--:|:--:|
 |Classify photocards category|Identify Idol face and group|Edit photocard image|
 
