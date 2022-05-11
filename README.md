@@ -20,7 +20,7 @@ The web app support the listing function on the organization's [Official trading
 
 -------------
 
-## 📌Features
+## 📌 Features
 The app contains a few key features:
 
 + Classifying most of SEVENTEEN photocards into provided categories
@@ -32,22 +32,19 @@ The app contains a few key features:
 ----------------------------
 
 ## 🎉 Local Environment Setup
+We used Python 3.8 or conda using Python 3.8, Pycharm as an IDE installed on our system. No other software or libraries required.
 
-```bash
-pip install streamlit
-```
-
- 1. Ensure that you have the prerequisite Python libraries installed on your local machine:
-
- ```bash
-pip install -r requirements.txt
- ```
-
- 2. Clone the *forked* repo to your local machine.
+ 1. Clone the *forked* repo to your local machine using the IDE of your interest (we used Pycharm here).
 
  ```bash
  git clone https://github.com/Kronicle-team/ml-web-app.git
  ```  
+
+ 2. Ensure that you have the prerequisite Python libraries installed on your local machine:
+
+ ```bash
+ pip install -r requirements.txt
+```
 
  3. Navigate to the base of the cloned repo, and start the Streamlit app.
 
@@ -56,7 +53,7 @@ pip install -r requirements.txt
  streamlit run app.py
  ```
 
- If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
+ 4. If the web server was able to initialise successfully, the following message should be displayed within your bash/terminal session:
 
 ```
   You can now view your Streamlit app in your browser.
@@ -67,7 +64,7 @@ pip install -r requirements.txt
 
 You should also be automatically directed to the base page of your web app. This should look something like:
 
-![Streamlit base page](#)
+![Streamlit base page](#https://i.ibb.co/2tPB2Z5/deep-learning-web-app.jpg)
 
 
 --------------------

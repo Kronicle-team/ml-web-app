@@ -24,7 +24,7 @@ with open('style.css') as f:
 
 html_temp = """
 		<div style="background-color:#435892;padding:10px;border-radius:10px">
-		<h1 style="color:#ffffff;subheader-align:center;subheader-shadow: 4px 4px 4px #FFA092">Kronicle - K-pop Idols and Photocards Classification</h1>
+		<h1 style="color:#ffffff;subheader-align:center;subheader-shadow: 4px 4px 4px #FFA092">Kronicle - Kpop Idols and Photocards Classification</h1>
 		<h4 style="color:#ffffff;subheader-align:center;">Deep Learning Web App</h4>
 		</div>
 		"""
@@ -37,15 +37,14 @@ def main():
     choice = st.sidebar.selectbox("Menu", menu)
 
     if choice == "HOME":
-        st.write("""
-			### Data Exploration: Analyze K-pop Idols and their Photocards
-			The scanning app that uses the CNN model to categorize, verify, and authenticate the photocard.
-			#### Project GitHub: 
-				- https://github.com/Kronicle-team/Kpop-Idol-Photocard-Classification
-			#### App Content
-				- EDA Section: Exploratory Data Analysis of Data
-				- Machine Learning Section: MACHINE LEARNING Predictor App
-				""")
+        st.subheader("Using CNN model to categorize, identify, and edit the photocard.")
+
+        st.text_input('Project GitHub', 'https://github.com/Kronicle-team')
+        st.text_input('CLASSIFY CATEGORY Section', 'Allows you to upload your own photocard and identify whether it is an album card or trading card.')
+        st.text_input('IDENTIFY KPOP IDOL FACES Section', 'Allows you to upload your own photocard and identify whether it is an album card or trading card.')
+        st.text_input('EDIT Section', 'Allows you to upload your own photocard and identify whether it is an album card or trading card.')
+        st.text_input('ABOUT Section', 'About the creators and the whole project.')
+
 
     elif choice == "EDIT":
         run_edit_app()
