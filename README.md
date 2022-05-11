@@ -32,11 +32,8 @@ The app contains a few key features:
 ----------------------------
 
 #### 📱 Basic Screen shots
-|<a href="#"><img src="https://i.ibb.co/qd1qVz6/frame-home.png" alt="home" width="400px"/></a>|<a href="#"><img src="https://i.ibb.co/NFKVVft/frame-about.png" alt="about us" width="400px"/></a>|
-|:--:|:--:|
-|Home Pgae|About Us Page|
 
-|<a href="#"><img src="https://i.ibb.co/Y4CzJD3/frame-classify.png" alt="classify category" width="400px"/></a>|<a href="#"><img src="https://i.ibb.co/9sQYLcT/frame-identify-face.png" alt="identify faces" width="400px"/></a>|<a href="#"><img src="https://i.ibb.co/RhRSX0D/frame-edit.png" alt="edit" width="400px"/></a>|
+|<a href="#"><img src="https://i.ibb.co/DQqyw58/classify-category.jpg" alt="classify category" width="400px"/></a>|<a href="#"><img src="https://i.ibb.co/k3r0G2X/identify-face.jpg" alt="identify faces" width="400px"/></a>|<a href="#"><img src="https://i.ibb.co/2YSGsbp/edit.jpg" alt="edit" width="400px"/></a>|
 |:--:|:--:|:--:|
 |Classify photocards category|Identify Idol face and group|Edit photocard image|
 
