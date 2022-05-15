@@ -16,7 +16,7 @@
 ----------
 
 ## Main Purpose 
-The web app support the listing function on the organization's [Official trading photocard website](#) by helping seller to classifying their products into appropriate category
+The web app support the listing function on the organization's [Official trading photocard website](#https://kronicle.netlify.app/) by helping seller to classifying their products into appropriate category
 
 -------------
 
