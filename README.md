@@ -7,16 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="#">
-    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Streamlit App" />
-  </a>
-</p>
-
-
-<p align="center">
-   <a href="https://youtu.be/xatEzD7jfxM">
-    Video Demo
-  </a>
+<a href="https://youtu.be/xatEzD7jfxM" target="blank">Demo on YouTube <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="tnathu-ai" height="30" width="40" /></a> 
 </p>
 
 
